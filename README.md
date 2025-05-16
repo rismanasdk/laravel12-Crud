@@ -1,17 +1,19 @@
-Cara Download Dan Install
+Cara Install Dan Menjalankan
 
-git clone https://github.com/rismanasdk/laravel-crud-12.git
+1. git clone https://github.com/rismanasdk/laravel-crud-12.git
 
-cd laravel-crud-12
+2. cd laravel-crud-12
 
-composer install
+3. composer install
 
-cp .env.example .env      # (di Windows: copy .env.example .env)
+4. cp .env.example .env      # (di Windows: copy .env.example .env)
 
-php artisan key:generate
+5. php artisan key:generate
 
-php artisan migrate
+6. ubah file .env
 
-php artisan storage:link
+7. php artisan migrate
 
-php artisan serve         # (jalankan server lokal)
+8. php artisan storage:link
+
+9. php artisan serve         # (jalankan server lokal)
